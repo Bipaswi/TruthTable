@@ -1,0 +1,16 @@
+
+De Morgan's Law proof
+(-(a&b))=(-a|-b) 
+(-(a|b))=(-a&-b)
+Distribution law proof
+(a&(b|c)) = ((a&b)|(a&c)) 
+(a|(b&c)) = ((a|b)&(a|c))
+
+step 3a
+(((((c#d))&(c>d))&(d>-a))&(a#b))
+
+step3b
+((((((a|b)&(a#d))&(c|d))&-(b&c))&-(a&c))&-(a&b))
+
+step c
+((((((a>b)&(b#e))&(c>(a&d)))&(d|c))&(e=d)))

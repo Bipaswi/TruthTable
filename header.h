@@ -1,0 +1,12 @@
+void shunt(int* pos, int* rpnPos, char formula[], int fLength, int* rpn);
+int precedence(char operator);
+bool isOperator(char operator);
+void printFormula(char formula[]);
+bool evalRpn(char* result, char* formula,int rpnPos, int* rpn);
+void initialVars(int argc);
+int getVars(char formula[], int fLength, char var[]);
+int power(int nr, int power);
+void genVar(int argv[], char alpha[]);
+void printTable(char* rpn, char var[], int num[]);
+void countBO(char formula[], int fLength);
+void checkValid(int x, char* result, char formula[], int rpnPos, int* rpn);

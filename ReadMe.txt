@@ -1,0 +1,2 @@
+In order to run the program first type in "make ttable" into the terminal.
+once the program has compiled type in ./ttable followed by the number of variables and the formula you wish to solve. an example would be something like this: ./ttable 3 "((a|b)&c)"
